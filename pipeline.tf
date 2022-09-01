@@ -71,7 +71,8 @@ resource "aws_codepipeline" "cicd_pipeline" {
             configuration = {
                 FullRepositoryId = "Omolarry/aws-cicd-pipeline"
                 BranchName   = "master"
-                ConnectionArn = var.codestar_connector_credentials
+                ConnectionArn = va
+                r.codestar_connector_credentials
                 OutputArtifactFormat = "CODE_ZIP"
             }
         }
