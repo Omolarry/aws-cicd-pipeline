@@ -63,7 +63,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
         name = "Source"
         action{
             name = "Source"
-            category = "Source"
+            category = "Sourc"
             owner = "AWS"
             provider = "CodeStarSourceConnection"
             version = "1"
